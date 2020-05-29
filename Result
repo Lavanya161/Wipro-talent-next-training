@@ -1,0 +1,9 @@
+import java.io.*;
+Class Result{
+Public static int arraySum(List<integer>
+int sum =0;
+for(int sum:numbers) {
+Sum = sum + num ;
+} 
+return sum;
+} 
