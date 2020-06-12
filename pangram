@@ -1,0 +1,5 @@
+public static String isPangram(List<String> pangram){
+boolean[] alphabetList=new boolean[26];
+int index=0;
+int flag=1;
+String
