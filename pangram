@@ -1,5 +1,23 @@
 public static String isPangram(List<String> pangram){
-boolean[] alphabetList=new boolean[26];
-int index=0;
-int flag=1;
-String
+ boolean[] alphabetList=new boolean[26];
+ int index=0;
+ int flag=1;
+ String result="";
+ for (String str:pangram){
+ for(int i=0;i<str.length();i++){
+     if(str.charAt(i)>='A'&&str.charAt(i)<='Z'){
+        index=str.charAt(i)-'A';
+     }else if(str.charat(i)>='a'&&str.charAt(i)<='z'){
+        index=str.charAt(i)-'a';
+        }
+        alphabetList[index]=true;
+        }
+      }
+   for(int i=0;i<=25;i++){
+      if(alphabetList[i]==false){
+       flag=0;
+       }
+     }
+    for(String str:pangram){
+      if flag
+        
