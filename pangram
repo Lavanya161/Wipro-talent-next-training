@@ -19,5 +19,13 @@ public static String isPangram(List<String> pangram){
        }
      }
     for(String str:pangram){
-      if flag
+      if (flag==1){
+      result=result+1;
+      }
+      else{
+      result=result+0;
+      }
+      return result;
+      }
+      }
         
