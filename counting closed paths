@@ -1,0 +1,15 @@
+class Result {
+    static int hole[]={1,0,0,0,1,0,1,0,2,1};
+    public static int closedPaths(int number) {
+    int holes=0;
+    while (number>0){
+        int lastDigit=number%10;
+        holes=holes+hole[lastDigit];
+        number=number/10;
+    }
+    return holes;
+    }
+
+}
+//input:630
+//output:2
